@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="gallery.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	
+		<Carousel class="sapUiContentPadding" loop="true">
+		<pages>
+		    <Image src="image/image04.jpg" alt="Example picture of screw"/>
+			<Image src="image/image01.jpg" alt="Example picture of speakers"/>
+
+			<Image src="image/imag02.jpg" alt="Example picture of USB flash drive"/>
+
+			<Image src="image/image03.jpg" alt="Example picture of spotlight"/>
+
+			
+
+		</pages>
+	</Carousel>
+</core:View>
